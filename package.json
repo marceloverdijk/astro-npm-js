@@ -1,0 +1,19 @@
+{
+  "name": "@example/basics",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "aos": "^2.3.4",
+    "astro": "^1.1.7"
+  },
+  "devDependencies": {
+    "sass": "^1.54.9"
+  }
+}
