@@ -5,19 +5,19 @@ This example tries to use client javascript served from a NPM dependency.
 In `Layout.astro` the client javascript library is included like:
 
 ```
-	<body>
-		<slot />
-		<script>
+<body>
+    <slot />
+    <script>
       import 'aos/dist/aos.js'
 
-			(function() {
+      (function() {
         AOS.init({
           duration: 650,
           once: true
         })
-			})()
-		</script>
-	</body>
+      })()
+    </script>
+</body>
 ```
 
 But in the browser it fails with:
